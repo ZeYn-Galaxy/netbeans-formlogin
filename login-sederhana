@@ -1,0 +1,16 @@
+        // Syntax Login Sederhana
+        String username = NamaFile.getText();
+        String password = NameFiles.getText();
+        
+        // Jika username = NamaAkun || dan password = NamaAkun
+        if ("NamaAkun".equals(username) && ("PasswordAkun".equals(password))) {
+            System.out.println("Login Sukses");
+        }
+        
+        // Jika Di tambahin variable khusus untuk namaAkun dan passwordAkun agar lebih efisien
+        String usernameAkun = "NamaAkun";
+        String passwordAkun = "passwordAkun";
+        
+        if (usernameAkun.equals(username) && (passwordAkun.equals(passwordAkun))) {
+            System.out.println("Login Sukses");
+        }
