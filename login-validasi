@@ -1,0 +1,23 @@
+        // Membuat validasi username dan password atau pengecekan ulang terhadap username dan password
+        String username = NamaFile.getText();
+        String password = NameFiles.getText();
+        // Info akun
+        String usernameAkun = "NamaAkun";
+        String passwordAkun = "NamaAkun";
+        
+        if (usernameAkun.equals(username)) {
+            // Username ditemui atau diterima 
+            // setelah itu lanjut validasi password
+            if (passwordAkun.equals(password)) {
+                // password benar
+                System.out.println("Login Sukses");
+            }
+            // Jika password salah
+            else {
+                System.out.println("Password salah!");
+            }
+        }
+        // Jika username salah atau tidak ditemui
+        else {
+            System.out.println("Username salah!");
+        }
